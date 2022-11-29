@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply p-0 m-0 box-border font-Arimo;
+  }
+
+  li:before {
+    content: "· ";
+    font-size: 24px;
+    vertical-align: middle;
+    line-height: 20px;
+    color: gray;
+    text-decoration: none;
+  }
+}
